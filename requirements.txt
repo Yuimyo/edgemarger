@@ -1,0 +1,5 @@
+numpy
+amulet-core
+opencv-python 
+opencv-contrib-python
+Pillow

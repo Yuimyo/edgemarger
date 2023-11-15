@@ -1,0 +1,10 @@
+version: '3'
+services:
+  process:
+    restart: always
+    build: .
+    container_name: 'pyrun_container'
+    working_dir: '/root/src'
+    tty: true
+    volumes:
+      - ./src:/root/src
